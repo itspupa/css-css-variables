@@ -4,4 +4,38 @@
   margin: 0;
 }
 
+/* CSS Variables */
+:root {
+  /* Color Variables */
+  --color-branding: #ff7f50;
+  --color-secondary: cornsilk;
+  --color-highlight: #d2691e;
+  --color-muted: #a9a9a9;
+
+  /* Padding Variables */
+  --padding-1: 1px;
+  --padding-2: 5px;
+  --padding-3: 10px;
+  --padding-4: 15px;
+  --padding-5: 20px;
+
+  /* Font Size Variables */
+  --font-size-small: 12px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-xl: 30px;
+  --font-size-2xl: 50px;
+  --font-size-3xl: 100px;
+}
+
+.introduction {
+  background: var(--color-secondary);
+  padding: var(--padding-5);
+}
+
+.introduction h1 {
+  color: var(--color-branding);
+  font-size: var(--font-size-3xl);
+}
+
 /* Start coding here */
